@@ -142,7 +142,8 @@ main .container.benner-utama .img-benner-utama {
 /* Awal Products */
 .container.products {
   margin-top: -240px;
-  margin-left: 20px;
+  margin: auto;
+  margin-inline: 10px;
 }
 
 .container.products .product-content {
@@ -315,11 +316,13 @@ main .container.benner-utama .img-benner-utama {
   /* Awal Products */
   .container.products {
     margin-top: -100px;
-    margin-left: 10px;
+    margin: auto;
+    width: 90%;
+    margin-inline: 10px;
   }
 
   .container.products .product-content {
-    margin: 28px;
+    margin: 0px;
     flex-wrap: wrap;
   }
 
@@ -406,14 +409,14 @@ main .container.benner-utama .img-benner-utama {
   /* Awal Products */
   .container.products {
     margin-top: -100px;
-    margin-left: 10px;
+    margin: auto;
+    margin-inline: 10px;
   }
 
   .container.products .product-content {
-    margin: 28px;
+    margin: 0px;
     flex-wrap: wrap;
     width: 95%;
-    text-align: center;
   }
 
   .container.products .product-content img {
@@ -446,7 +449,8 @@ main .container.benner-utama .img-benner-utama {
   /* Awal Products */
   .container.products {
     margin-top: -140px;
-    margin-left: 20px;
+    margin: auto;
+    margin-inline: 10px;
   }
 
   .container.products .product-content {
@@ -484,7 +488,8 @@ main .container.benner-utama .img-benner-utama {
   /* Awal Products */
   .container.products {
     margin-top: -140px;
-    margin-left: 20px;
+    margin: auto;
+    margin-inline: 10px;
   }
 
   .container.products .product-content {
