@@ -412,6 +412,8 @@ main .container.benner-utama .img-benner-utama {
   .container.products .product-content {
     margin: 28px;
     flex-wrap: wrap;
+    width: 95%;
+    text-align: center;
   }
 
   .container.products .product-content img {
