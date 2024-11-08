@@ -69,7 +69,7 @@ nav .container {
   color: #6d4c2f;
 }
 
-.container .nav-menu .nav-menu-ul li:hover {
+.container .nav-menu .nav-menu-ul li a:hover {
   border-bottom: 3px solid #6d4c2f;
 }
 
@@ -266,10 +266,12 @@ main .container.benner-utama .img-benner-utama {
   .container .nav-menu .nav-menu-ul {
     display: none;
     opacity: 0;
+    text-align: center;
+    margin-left: -40px;
   }
 
   .container .nav-menu .nav-menu-ul li {
-    margin-top: 30px;
+    margin-top: 40px;
   }
 
   .container .nav-menu .nav-menu-ul li:nth-child(1) {
@@ -277,7 +279,7 @@ main .container.benner-utama .img-benner-utama {
   }
 
   .container .nav-menu .nav-menu-ul li:nth-child(4) {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
 
   .container .nav-menu .nav-menu-ul.slide {
@@ -295,16 +297,24 @@ main .container.benner-utama .img-benner-utama {
   /* Awal  About */
 
   .container.about {
-    width: 100%;
+    width: 95%;
     margin-inline: 5px;
     margin-top: -500px;
+  }
+
+  .container.about h1 {
+    margin-inline: 5px;
+  }
+
+  .container.about .dropdown-1 {
+    margin-inline: 5px;
   }
 
   /* Akhir About */
 
   /* Awal Products */
   .container.products {
-    margin-top: -140px;
+    margin-top: -100px;
     margin-left: 10px;
   }
 
@@ -315,12 +325,13 @@ main .container.benner-utama .img-benner-utama {
 
   .container.products .product-content img {
     width: 250px;
+    margin-top: 105px;
   }
   /* Akhir Product */
 
   /* Awal Contact*/
 
-  .container.contact .div-contact{
+  .container.contact .div-contact {
     display: flex;
     flex-wrap: wrap;
   }
@@ -329,12 +340,12 @@ main .container.benner-utama .img-benner-utama {
     width: 100%;
     margin: 20px;
   }
-  
+
   .container.contact .div-contact .contact-me {
     width: 100%;
     margin: 20px;
   }
-  
+
   /* Akhir Contact */
 }
 
@@ -345,8 +356,14 @@ main .container.benner-utama .img-benner-utama {
     opacity: 0;
   }
 
-  .container .nav-menu .nav-menu-ul li {
+  .container .nav-menu .nav-menu-ul {
     margin-top: 30px;
+    text-align: center;
+    margin-left: -40px;
+  }
+
+  .container .nav-menu .nav-menu-ul li {
+    margin-top: 40px;
   }
 
   .container .nav-menu .nav-menu-ul li:nth-child(1) {
@@ -354,7 +371,7 @@ main .container.benner-utama .img-benner-utama {
   }
 
   .container .nav-menu .nav-menu-ul li:nth-child(4) {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
 
   .container .nav-menu .nav-menu-ul.slide {
@@ -376,11 +393,19 @@ main .container.benner-utama .img-benner-utama {
     width: 90%;
   }
 
+  .container.about h1 {
+    margin-inline: 5px;
+  }
+
+  .container.about .dropdown-1 {
+    margin-inline: 5px;
+  }
+
   /* Akhir About */
 
   /* Awal Products */
   .container.products {
-    margin-top: -140px;
+    margin-top: -100px;
     margin-left: 10px;
   }
 
@@ -391,12 +416,13 @@ main .container.benner-utama .img-benner-utama {
 
   .container.products .product-content img {
     width: 250px;
+    margin-top: 105px;
   }
   /* Akhir Product */
 
-   /* Awal Contact*/
+  /* Awal Contact*/
 
-   .container.contact .div-contact{
+  .container.contact .div-contact {
     display: flex;
     flex-wrap: wrap;
   }
@@ -405,59 +431,18 @@ main .container.benner-utama .img-benner-utama {
     width: 100%;
     margin: 20px;
   }
-  
+
   .container.contact .div-contact .contact-me {
     width: 100%;
     margin: 20px;
   }
-  
+
   /* Akhir Contact */
-
-  
 }
 
-
-@media screen and (min-width: 776px) and (max-width: 992px) { 
-
-   /* Awal Products */
-   .container.products {
-    margin-top: -140px;
-    margin-left: 20px;
-  }
-
-  .container.products .product-content {
-    margin: 28px;
-    flex-wrap: wrap;
-  }
-  
-  /* Akhir Product */
-
-     /* Awal Contact*/
-
-     .container.contact .div-contact{
-      display: flex;
-      flex-wrap: wrap;
-    }
-  
-    .container.contact .div-contact .contact-form {
-      width: 100%;
-      margin: 20px;
-    }
-    
-    .container.contact .div-contact .contact-me {
-      width: 100%;
-      margin: 20px;
-    }
-    
-    /* Akhir Contact */
-
-}
-
-
-@media screen and (min-width: 992px) and (max-width: 1200px) { 
-
-   /* Awal Products */
-   .container.products {
+@media screen and (min-width: 776px) and (max-width: 992px) {
+  /* Awal Products */
+  .container.products {
     margin-top: -140px;
     margin-left: 20px;
   }
@@ -467,6 +452,47 @@ main .container.benner-utama .img-benner-utama {
     flex-wrap: wrap;
   }
 
+  .container.products .product-content img {
+    margin-top: 105px;
+  }
+
   /* Akhir Product */
 
+  /* Awal Contact*/
+
+  .container.contact .div-contact {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .container.contact .div-contact .contact-form {
+    width: 100%;
+    margin: 20px;
+  }
+
+  .container.contact .div-contact .contact-me {
+    width: 100%;
+    margin: 20px;
+  }
+
+  /* Akhir Contact */
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  /* Awal Products */
+  .container.products {
+    margin-top: -140px;
+    margin-left: 20px;
+  }
+
+  .container.products .product-content {
+    margin: 28px;
+    flex-wrap: wrap;
+  }
+
+  .container.products .product-content img {
+    margin-top: 105px;
+  }
+
+  /* Akhir Product */
 }
